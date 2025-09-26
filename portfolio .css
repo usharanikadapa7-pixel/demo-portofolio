@@ -1,0 +1,463 @@
+* {
+  margin: 0%;
+}
+/*header starts here*/
+header {
+  background-color: darkmagenta;
+  font-family: sans-serif;
+  color: white;
+  height: 120px;
+  display: flex;
+  width: 100%;
+  position: fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between; /* left and right content spread */
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px; /* you can reduce left padding if needed */
+  background-color: #800080; /* or none */
+  box-sizing: border-box;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align left */
+}
+
+.nav-left h1,
+.nav-left p {
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.nav-right {
+  display: flex;
+  gap: 24px;
+}
+
+.topmenu {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.topmenu:hover {
+  color: #00bcd4;
+}
+
+
+
+
+
+.personal-details {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.personal-details h1 {
+  font-size: 25px;
+}
+.my-info img {
+  width: 25px;
+}
+.my-info p {
+  font-size: 15px;
+}
+p {
+  display: inline;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+  font-size: large;
+  font-weight: bolder;
+}
+
+/*section starts here*/
+
+.boy-image {
+  width: 480px;
+  height: 300px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 30px 0px 0px 0px;
+  box-shadow: 2px 2px 10px 1px gray;
+  margin-top: 60px;
+  justify-content: start;
+  transform: scale(1.02s);
+  transition: all;
+}
+.boy-image:hover {
+  width: 500px;
+  height: 306px;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+  box-shadow: 4px 4px 12px 2px gray;
+}
+
+#about-me {
+  display: flex;
+  padding: 80px 25px 20px 25px;
+}
+.name {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 40px;
+  color: darkmagenta;
+  padding-top: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.bio {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.my-bio {
+  padding: 50px;
+}
+
+/*skills starts here*/
+
+.skills-box {
+  width: 200px;
+  height: 350px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  box-shadow: 2px 2px 10px 0px gray;
+  display: flex;
+  transform: scale(1.02s);
+  transition: all;
+}
+.skills-box:hover {
+  width: 220px;
+  height: 366px;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  box-shadow: 3px 3px 12px 1px gray;
+}
+.skills-box img {
+  width: 150px;
+}
+#skill {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkmagenta;
+  font-size: 40px;
+  margin-left: 40px;
+}
+.skills-box h4 {
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+.skills-box img {
+  width: 150px;
+}
+.skills-box p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.skills-container {
+  display: flex;
+  margin-top: 40px;
+  row-gap: 30px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#skills {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+
+/*projects starts here*/
+
+.pro-h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: darkmagenta;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.para {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding: 16px;
+}
+#project-section div {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+/*recomendations starts here*/
+.rec-box {
+  font-size: medium;
+  font-family: sans-serif;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 1px gray;
+  margin: 20px 100px;
+  padding: 20px 20px;
+  width: 280px;
+  transform: scale(1s);
+  transition: all;
+}
+.rec-box:hover {
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  width: 305px;
+  box-shadow: 3px 3px 12px 2px gray;
+}
+.rec-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+#rec-h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: darkmagenta;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input,
+textarea {
+  width: 500px;
+  margin-bottom: 20px;
+}
+input {
+  height: 20px;
+}
+
+/*leave starts here*/
+
+.leave {
+  color: darkmagenta;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.btn {
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 1px gray;
+  margin-bottom: 25px;
+  width: 70px;
+  height: 30px;
+}
+button:hover {
+  background-color: darkmagenta;
+  color: white;
+  font-size: larger;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 1px gray;
+  margin-bottom: 25px;
+  width: 90px;
+  height: 40px;
+}
+
+/*footer starts here*/
+
+footer {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 25px;
+}
+.button {
+  background-color: darkmagenta;
+  width: 50px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 5px 1px gray;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+}
+.button img {
+  width: 40px;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .boy-image {
+    width: 400px;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 1px gray;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-me {
+    flex-wrap: wrap;
+    padding: 25px;
+  }
+  .name {
+    font-size: 28px;
+    color: rgb(95, 1, 95);
+    text-align: justify;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .bio {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 25.5px;
+  }
+  #skill {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: darkmagenta;
+    font-size: 40px;
+    margin: 20px 60px 20px 50px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  #skills {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    margin-left: 30px;
+  }
+  .skills-container {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  .pro-h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: darkmagenta;
+    margin-left: 20px 60px 20px 50px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 26px;
+    text-decoration: underline;
+  }
+  .para {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  .project {
+    margin-top: 10px;
+  }
+  .leave {
+    color: darkmagenta;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input,
+  textarea {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  input {
+    height: 24px;
+  }
+  textarea {
+    height: 50px;
+  }
+  .btn {
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 1px gray;
+    margin-bottom: 25px;
+    width: 70px;
+    height: 30px;
+  }
+  button:hover {
+    background-color: darkmagenta;
+    color: white;
+    font-size: larger;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 1px gray;
+    margin-bottom: 25px;
+    width: 90px;
+    height: 40px;
+  }
+  footer {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px 25px 20px 25px;
+  }
+  .button {
+    background-color: darkmagenta;
+    width: 40px;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px black;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+  }
+  .button img {
+    width: 30px;
+  }
+  #rec-h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: darkmagenta;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
